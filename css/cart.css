@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #DADADA;
+
+}
+.main{
+
+}
+.size{
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+.header{
+    width: 100%;
+    padding: 15px 0;
+    background-color: #ffffff;
+}
+.rightCont{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo{
+    width: 150px;
+    height: 48px;
+}
+
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+
+.leftIcons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon span svg{
+    width: 18px;
+    height: 18px;
+}
+.icon{
+    font-size: 15px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #8b96a5;
+}
+/* Hide the mobileicons from desktop and large screens */
+.hamburger, .mobileIcons{
+    display: none;
+
+}
+
+/* Breadcrimb styling */
+.breadCrumb{
+    padding: 35px 0;
+
+}
+.bread{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* Content styling */
+.cart{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.leftCart{
+    width: 80%;
+    padding:20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.rightCart{
+    width: 20%;
+}
+.singleCart{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    padding: 10px 0;
+}
+.lsc{
+    display: flex;
+    gap: 15px;
+}
+
+.productData .productName{
+    font-size: 18px;
+    font-weight: 600;
+}
+.productSize, .productSeller{
+    font-size:16px ;
+    color: #8b96a5;
+    font-weight: 300;
+}
+.productData{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+
+}
+.btns{
+    margin-top: 1opx;
+}
+.btn{
+    border-radius: 5px;
+    border: none;
+    padding: 14px;
+}
+.remove{
+    color: #fa3434;
+}
+.saveLater{
+    color: #0d6efd;
+}
+.rSC{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+}
+.rSC .price{
+    font-size: 18px;
+    font-weight: 600;
+}
+.formControl{
+    width: 120px;
+    height: 40px;
+    border-radius: 10px ;
+    padding: 0 5px;
+
+}
+/* cart left styling */
+.rightCart{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rightCart .coupon{
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+.coupon .couponText{
+    font-size: 1rem;
+    color: #505050;
+    padding-bottom: 5px;
+}
+
+.coupon .form{
+    display: flex;
+}
+.inpCoupon, .btnCoupon{
+    height: 40px;
+}
+
+.inpCoupon{
+    width: 164px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: 1px solid #505050;
+    color: #505050;
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.btnCoupon{
+    width: 85px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: inherit;
+    border: 1px solid #505050;
+    color: #0d6efd;
+    font-weight: 600;
+}
+
+/* total price sectiion */
+.totalPrice{
+    width: 100%;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.prices p{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    font-size: 1rem;
+}
+
+.prices p .red{
+    color: #fa3434;
+
+}
+
+.prices p .green{
+    color: #00b517;
+
+}
+.line{
+    margin: 20px 0;
+
+}
+
+.tPrice{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.total{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.totalSum{
+    font-size: 1.25rem;
+}
+
+.btnTotal{
+    background-color: #00b517;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border: none;
+}
+
+.payment{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 10px;
+}
+
+.payment img {
+    width: 34px;
+    height: 22px;
+}
